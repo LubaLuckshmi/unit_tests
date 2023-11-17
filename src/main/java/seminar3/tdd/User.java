@@ -2,6 +2,7 @@ package seminar3.tdd;
 
 public class User {
 
+    boolean isAdmin;
     String name;
     String password;
 
@@ -10,6 +11,7 @@ public class User {
     public User(String name, String password, boolean isAdmin) {
         this.name = name;
         this.password = password;
+        this.isAdmin = isAdmin;
 
     }
 
