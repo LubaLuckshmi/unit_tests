@@ -1,4 +1,4 @@
-package seminar4.book;
+package seminar4Hw.book;
 import java.util.List;
 
 public interface BookRepository {
