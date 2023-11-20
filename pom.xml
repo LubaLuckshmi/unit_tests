@@ -71,7 +71,19 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version> <!-- Замените на актуальную версию Selenium WebDriver -->
+            <version>4.10.0</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.6.6</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.16</version>
         </dependency>
 
         <!-- Зависимость для JaCoCo - инструмента для измерения покрытия кода тестами -->
@@ -85,6 +97,11 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11-beta-1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-safari-driver</artifactId>
+            <version>4.10.0</version>
         </dependency>
 
     </dependencies>
